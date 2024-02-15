@@ -48,6 +48,40 @@
             <components:Emplacement HorizontalAlignment="Left" Margin="333,115,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P13" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
             <components:Emplacement HorizontalAlignment="Left" Margin="288,115,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P14" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
             <components:Emplacement HorizontalAlignment="Left" Margin="243,115,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P15" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,340,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G1" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,405,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G2" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,470,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G3" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,535,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G4" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,600,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G5" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,665,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G6" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,340,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G1" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,665,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G6" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,405,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G11" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,470,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G10" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,535,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G9" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,600,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G8" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,340,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G12" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,665,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G7" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,265,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G13" ViewEmplacementClick="Emplacement_ViewEmplacementClick" RenderTransformOrigin="0.5,0.5">
+                <components:Emplacement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-11.816"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </components:Emplacement.RenderTransform>
+            </components:Emplacement>
+            <components:Emplacement HorizontalAlignment="Left" Margin="168,221,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G14" ViewEmplacementClick="Emplacement_ViewEmplacementClick" RenderTransformOrigin="0.5,0.5">
+                <components:Emplacement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-50.309"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </components:Emplacement.RenderTransform>
+            </components:Emplacement>
         </Grid>
         <Grid/>
     </Grid>
