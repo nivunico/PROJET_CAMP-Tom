@@ -2,112 +2,87 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:PROJET_CAMP"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:components="clr-namespace:PROJET_CAMP.components"
         mc:Ignorable="d"
-        Title="MainWindow" Height="920" Width="800" Background="LightSlateGray" ResizeMode="NoResize">
-    <Grid>
-        <Rectangle x:Name="P1" HorizontalAlignment="Left" Height="63" Margin="298,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="40" />
-        <Rectangle x:Name="P2" HorizontalAlignment="Left" Height="63" Stroke="Black" VerticalAlignment="Top" Width="40" Margin="358,21,0,0" />
-        <Rectangle x:Name="P3" HorizontalAlignment="Left" Height="63" Margin="419,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
-        <Rectangle x:Name="P4" HorizontalAlignment="Left" Height="63" Margin="479,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
-        <Rectangle x:Name="P5" HorizontalAlignment="Left" Height="63" Margin="537,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
-        <Rectangle x:Name="P6" HorizontalAlignment="Left" Height="63" Margin="599,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
-        <Rectangle x:Name="P15" HorizontalAlignment="Left" Height="63" Margin="363,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
-        <Rectangle x:Name="P14" HorizontalAlignment="Left" Height="63" Margin="424,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
-        <Rectangle x:Name="P13" HorizontalAlignment="Left" Height="63" Margin="484,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
-        <Rectangle x:Name="P12" HorizontalAlignment="Left" Height="63" Margin="542,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
-        <Rectangle x:Name="P7" HorizontalAlignment="Left" Height="40" Margin="698,84,0,0" Stroke="Black" VerticalAlignment="Top" Width="63"/>
-        <Rectangle x:Name="P8" HorizontalAlignment="Left" Height="40" Margin="698,143,0,0" Stroke="Black" VerticalAlignment="Top" Width="63"/>
-        <Rectangle HorizontalAlignment="Left" Height="40" Margin="698,205,0,0" Stroke="Black" VerticalAlignment="Top" Width="63"/>
-        <Rectangle x:Name="P10" HorizontalAlignment="Left" Height="40" Margin="698,263,0,0" Stroke="Black" VerticalAlignment="Top" Width="63"/>
-        <Rectangle x:Name="P11" HorizontalAlignment="Left" Height="40" Margin="698,323,0,0" Stroke="Black" VerticalAlignment="Top" Width="63"/>
-        <Rectangle x:Name="G1" HorizontalAlignment="Left" Height="58" Margin="123,409,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="G2" HorizontalAlignment="Left" Height="58" Margin="123,489,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="G3" HorizontalAlignment="Left" Height="58" Margin="123,569,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="G4" HorizontalAlignment="Left" Height="58" Margin="123,649,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="G5" HorizontalAlignment="Left" Height="58" Margin="123,729,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="G6" HorizontalAlignment="Left" Height="58" Margin="123,807,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="G7" HorizontalAlignment="Left" Height="58" Margin="421,807,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="G8" HorizontalAlignment="Left" Height="58" Margin="421,729,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.41,-0.712"/>
-        <Rectangle x:Name="G9" HorizontalAlignment="Left" Height="58" Margin="421,649,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="G10" HorizontalAlignment="Left" Height="58" Margin="421,569,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="G11" HorizontalAlignment="Left" Height="58" Margin="421,489,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="G12" HorizontalAlignment="Left" Height="58" Margin="421,409,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="G13" HorizontalAlignment="Left" Height="58" Margin="399,325,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.5,0.5">
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-33.27"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-        <Rectangle x:Name="G14" HorizontalAlignment="Left" Height="58" Margin="334,268,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.5,0.5">
-            <Rectangle.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-63.024"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Rectangle.RenderTransform>
-        </Rectangle>
-        <DatePicker HorizontalAlignment="Left" Margin="30,65,0,0" VerticalAlignment="Top"/>
-        <DatePicker HorizontalAlignment="Left" Margin="30,120,0,0" VerticalAlignment="Top"/>
-        <Button Content="Rechercher" HorizontalAlignment="Left" Margin="30,163,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.109,0.052" Width="90"/>
-        <Button Content="Inscrire" HorizontalAlignment="Left" Margin="30,202,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.109,0.052" Width="90"/>
-        <Button Content="Consulter" HorizontalAlignment="Left" Margin="30,242,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.109,0.052" Width="90"/>
-        <TextBlock HorizontalAlignment="Left" Margin="298,40,0,0" TextWrapping="Wrap" Text="P1" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="358,40,0,0" TextWrapping="Wrap" Text="P2" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="419,40,0,0" TextWrapping="Wrap" Text="P3" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="479,40,0,0" TextWrapping="Wrap" Text="P4" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="537,40,0,0" TextWrapping="Wrap" Text="P5" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="599,40,0,0" TextWrapping="Wrap" Text="P6" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="363,143,0,0" TextWrapping="Wrap" Text="P15" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="424,144,0,0" TextWrapping="Wrap" Text="P14" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="484,143,0,0" TextWrapping="Wrap" Text="P13" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="542,143,0,0" TextWrapping="Wrap" Text="P12" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="710,96,0,0" TextWrapping="Wrap" Text="P7" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="710,155,0,0" TextWrapping="Wrap" Text="P8" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="710,217,0,0" TextWrapping="Wrap" Text="P9" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="30,49,0,0" TextWrapping="Wrap" Text="Du" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="30,104,0,0" TextWrapping="Wrap" Text="Au" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="710,275,0,0" TextWrapping="Wrap" Text="P10" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="710,335,0,0" TextWrapping="Wrap" Text="P11" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="153,430,0,0" TextWrapping="Wrap" Text="G1" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="153,510,0,0" TextWrapping="Wrap" Text="G2" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="153,590,0,0" TextWrapping="Wrap" Text="G3" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="153,670,0,0" TextWrapping="Wrap" Text="G4" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="153,750,0,0" TextWrapping="Wrap" Text="G5" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="153,828,0,0" TextWrapping="Wrap" Text="G6" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="451,828,0,0" TextWrapping="Wrap" Text="G7" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="451,750,0,0" TextWrapping="Wrap" Text="G8" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="451,665,0,0" TextWrapping="Wrap" Text="G9" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="451,590,0,0" TextWrapping="Wrap" Text="G10" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="451,510,0,0" TextWrapping="Wrap" Text="G11" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="451,430,0,0" TextWrapping="Wrap" Text="G12" VerticalAlignment="Top" Width="40" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="424,347,0,0" TextWrapping="Wrap" Text="G13" VerticalAlignment="Top" Width="40" TextAlignment="Center" RenderTransformOrigin="0.5,0.5">
-            <TextBlock.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-34.477"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="363,288,0,0" TextWrapping="Wrap" Text="G14" VerticalAlignment="Top" Width="40" TextAlignment="Center" RenderTransformOrigin="0.5,0.5">
-            <TextBlock.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-62.123"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-
+        Title="Camping" Height="800" Width="600" Background="#ededed" ResizeMode="NoResize">
+    <Grid Name="Layout" Background="AliceBlue" ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="750"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Name="Actions" Grid.Column="0" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <DatePicker Grid.Column="0"/>
+            <DatePicker Grid.Column="1"/>
+            <Button Content="Button" Width="70" Grid.Column="2" Grid.Row="0"/>
+            <Button Content="Button" Width="70" Grid.Column="3" Grid.Row="0"/>
+            <Button Content="Button" Width="70" Grid.Column="4" Grid.Row="0"/>
+        </Grid>
+        <Grid Name="Emplacements" Grid.Column="1" Grid.Row="1">
+            <components:Emplacement HorizontalAlignment="Left" Margin="218,16,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P1" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="263,16,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P2" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="308,16,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P3" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="353,16,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P4" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="398,16,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P5" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="447,16,0,0" VerticalAlignment="Top" Width="40" Height="80" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="447,16,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P6" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="497,110,0,0" VerticalAlignment="Top" Width="80" Height="40" Uid="P7" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="497,155,0,0" VerticalAlignment="Top" Width="80" Height="40" Uid="P8" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="497,200,0,0" VerticalAlignment="Top" Width="80" Height="40" Uid="P9" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="497,245,0,0" VerticalAlignment="Top" Width="80" Height="40" Uid="P10" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="497,290,0,0" VerticalAlignment="Top" Width="80" Height="40" Uid="P11" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="378,115,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P12" ViewEmplacementClick="Emplacement_ViewEmplacementClick" />
+            <components:Emplacement HorizontalAlignment="Left" Margin="333,115,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P13" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="288,115,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P14" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="243,115,0,0" VerticalAlignment="Top" Width="40" Height="80" Uid="P15" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,340,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G1" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,405,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G2" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,470,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G3" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,535,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G4" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,600,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G5" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,665,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G6" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,340,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G1" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="87,665,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G6" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,405,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G11" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,470,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G10" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,535,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G9" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,600,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G8" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,340,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G12" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,665,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G7" ViewEmplacementClick="Emplacement_ViewEmplacementClick"/>
+            <components:Emplacement HorizontalAlignment="Left" Margin="253,265,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G13" ViewEmplacementClick="Emplacement_ViewEmplacementClick" RenderTransformOrigin="0.5,0.5">
+                <components:Emplacement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-11.816"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </components:Emplacement.RenderTransform>
+            </components:Emplacement>
+            <components:Emplacement HorizontalAlignment="Left" Margin="168,221,0,0" VerticalAlignment="Top" Width="100" Height="60" Uid="G14" ViewEmplacementClick="Emplacement_ViewEmplacementClick" RenderTransformOrigin="0.5,0.5">
+                <components:Emplacement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-50.309"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </components:Emplacement.RenderTransform>
+            </components:Emplacement>
+        </Grid>
+        <Grid/>
     </Grid>
 </Window>
